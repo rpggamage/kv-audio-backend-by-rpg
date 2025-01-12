@@ -17,8 +17,15 @@ let mongoUrl = "mongodb+srv://rpggamage:zh5AcuP43mBaKp6w@cluster0.dkiyv.mongodb.
 
 establishe connection
 schema ->init modle -> data -> add to model -Save
-in mongo go to brows colection I saw data
+in mongo go to brows collection I saw data
 
 let mongoUrl = "mongodb+srv://rpggamage:zh5AcuP43mBaKp6w@cluster0.dkiyv.mongodb.net/XXXXXXX?retryWrites=true&w=majority&appName=Cluster0"; XXXXXXX is the database name in the cluster
+#Day 03
+    Understand the folder structure of the backend
+    models/controllers/routes
+
+#Day 04
+    npm i bcrypt
+    register user,password encryption, login
 
 
