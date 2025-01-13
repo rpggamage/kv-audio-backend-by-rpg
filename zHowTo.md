@@ -13,13 +13,14 @@
         "start": "nodemon index.js",
     npm install mongoose
 Mongo DB : zh5AcuP43mBaKp6w
-let mongoUrl = "mongodb+srv://rpggamage:zh5AcuP43mBaKp6w@cluster0.dkiyv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+let mongoUrl = "";
 
 establishe connection
 schema ->init modle -> data -> add to model -Save
 in mongo go to brows collection I saw data
-
-let mongoUrl = "mongodb+srv://rpggamage:zh5AcuP43mBaKp6w@cluster0.dkiyv.mongodb.net/XXXXXXX?retryWrites=true&w=majority&appName=Cluster0"; XXXXXXX is the database name in the cluster
+    npm i dotenv  
+    now you should use env file
+let mongoUrl = ""; XXXXXXX is the database name in the cluster
 #Day 03
     Understand the folder structure of the backend
     models/controllers/routes
