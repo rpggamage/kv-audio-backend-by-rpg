@@ -38,4 +38,4 @@ let mongoUrl = ""; XXXXXXX is the database name in the cluster
 
 #Day 06
     we are going to learn env
-    npm i dotenv
+    npm i dotenv -> dotenv.config();->process.env.JWT_SECRET
