@@ -27,5 +27,11 @@ let mongoUrl = "mongodb+srv://rpggamage:zh5AcuP43mBaKp6w@cluster0.dkiyv.mongodb.
 #Day 04
     npm i bcrypt
     register user,password encryption, login
-
+#Day 05
+    Authorization and authentication
+    Json web token (JWT)
+    npm i jsonwebtoken
+    in postman ->Authorization -> Bearer Token -> add your token
+    however to read the token fro backend we need a middleware (,,next)
+    then need to implement Authorization on user.role
 

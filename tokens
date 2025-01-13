@@ -1,0 +1,26 @@
+{
+  "email": "rpg123.doe@example.com",
+  "password": "123",
+  "role": "customer",
+  "firstName": "John",
+  "lastName": "Doe"
+}
+  {
+  "message": "Login successfully",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkpvaG4iLCJsYXN0TmFtZSI6IkRvZSIsImVtYWlsIjoicnBnMTIzLmRvZUBleGFtcGxlLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTczNjY2OTI3N30.Sda5qqom1M-sb5JlmXLApnWqcQzdOYV_fXM_KeMMohI"
+}
+/////////////////////////////Admin////////////////////////////////////////////
+{
+  "email": "jane.smith@example.com",
+  "password": "securepass456",
+  "role": "admin",
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "address": "456 Elm St, Shelbyville",
+  "phoneNumber": "+1987654321",
+  "isActive": true
+}
+{
+  "message": "Login successfully",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkphbmUiLCJsYXN0TmFtZSI6IlNtaXRoIiwiZW1haWwiOiJqYW5lLnNtaXRoQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM2Njc5NTU2fQ.8xxrrHtrCVVrGSkDzZzr4m5ryZxQe81XbLJ7PHtBdEk"
+}
