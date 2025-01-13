@@ -4,6 +4,9 @@ import mongoose from "mongoose";
 import userRouter from "./routes/userRouter.js";
 import productRouter from "./routes/productRouter.js";
 import jwt from "jsonwebtoken";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 let app = express();
 
@@ -14,7 +17,7 @@ app.use((req, res, next) => {
 
     if (token) {
         token = token.replace("Bearer ", "");
-        jwt.verify(token, "kv-secret-82", (err, decoded) => {
+        jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
             if (err) {
                 res.status(401).send({ message: "Invalid token" });
             } else {
@@ -26,8 +29,9 @@ app.use((req, res, next) => {
     }
     next();
 });
-let mongoUrl = "mongodb+srv://rpggamage:zh5AcuP43mBaKp6w@cluster0.dkiyv.mongodb.net/Product?retryWrites=true&w=majority&appName=Cluster0";
 
+
+let mongoUrl = process.env.MONGO_URL;
 mongoose.connect(mongoUrl);
 let connection = mongoose.connection;
 connection.once("open", () => {

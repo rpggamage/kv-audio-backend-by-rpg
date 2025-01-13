@@ -33,7 +33,7 @@ export function loginUser(req, res) {
                 if (isPasswordCorrect) {
                     const token = jwt.sign(
                         { id: user.firstName, lastName: user.lastName, email: user.email, role: user.role },
-                        "kv-secret-82",
+                        process.env.JWT_SECRET,
 
                     )
                     res.json({ message: "Login successfully", token: token });

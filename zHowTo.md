@@ -35,3 +35,6 @@ let mongoUrl = "mongodb+srv://rpggamage:zh5AcuP43mBaKp6w@cluster0.dkiyv.mongodb.
     however to read the token fro backend we need a middleware (,,next)
     then need to implement Authorization on user.role
 
+#Day 06
+    we are going to learn env
+    npm i dotenv
