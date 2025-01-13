@@ -10,6 +10,7 @@ const userSchema = new mongoose.Schema({
     address: { type: String, required: true },
     phoneNumber: { type: String, required: true },
     isActive: { type: Boolean, required: true, default: true },
+    profilePicture: { type: String, required: true, default: "https://www.shutterstock.com/image-vector/avatar-gender-neutral-silhouette-vector-600nw-2470054311.jpg" },
 });
 const User = mongoose.model("User", userSchema);
 

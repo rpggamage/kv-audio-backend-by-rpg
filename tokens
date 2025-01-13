@@ -1,26 +1,32 @@
 {
-  "email": "rpg123.doe@example.com",
-  "password": "123",
+  "email": "user@example.com",
+  "password": "userPassword456",
   "role": "customer",
   "firstName": "John",
-  "lastName": "Doe"
+  "lastName": "Doe",
+  "address": "456 User Lane, User Town",
+  "phoneNumber": "+1987654321",
+  "isActive": true,
+  "profilePicture": "https://www.shutterstock.com/image-photo/default-avatar-260nw-1234567891.jpg"
 }
-  {
+{
   "message": "Login successfully",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkpvaG4iLCJsYXN0TmFtZSI6IkRvZSIsImVtYWlsIjoicnBnMTIzLmRvZUBleGFtcGxlLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTczNjY2OTI3N30.Sda5qqom1M-sb5JlmXLApnWqcQzdOYV_fXM_KeMMohI"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkpvaG4iLCJsYXN0TmFtZSI6IkRvZSIsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInJvbGUiOiJjdXN0b21lciIsInByb2ZpbGVQaWN0dXJlIjoiaHR0cHM6Ly93d3cuc2h1dHRlcnN0b2NrLmNvbS9pbWFnZS1waG90by9kZWZhdWx0LWF2YXRhci0yNjBudy0xMjM0NTY3ODkxLmpwZyIsImlhdCI6MTczNjc2NzgxMn0.CSN7_uYNv49UYAwdcUn0U0uhHzHApFDZM1FtG7WrGZA"
 }
 /////////////////////////////Admin////////////////////////////////////////////
 {
-  "email": "jane.smith@example.com",
-  "password": "securepass456",
+  "email": "admin@example.com",
+  "password": "secureAdminPass123",
   "role": "admin",
-  "firstName": "Jane",
-  "lastName": "Smith",
-  "address": "456 Elm St, Shelbyville",
-  "phoneNumber": "+1987654321",
-  "isActive": true
+  "firstName": "Admin",
+  "lastName": "User",
+  "address": "123 Admin St, Admin City",
+  "phoneNumber": "+1234567890",
+  "isActive": true,
+  "profilePicture": "https://www.shutterstock.com/image-photo/admin-profile-picture-260nw-1234567890.jpg"
 }
+
 {
   "message": "Login successfully",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkphbmUiLCJsYXN0TmFtZSI6IlNtaXRoIiwiZW1haWwiOiJqYW5lLnNtaXRoQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM2Njc5NTU2fQ.8xxrrHtrCVVrGSkDzZzr4m5ryZxQe81XbLJ7PHtBdEk"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkFkbWluIiwibGFzdE5hbWUiOiJVc2VyIiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsInByb2ZpbGVQaWN0dXJlIjoiaHR0cHM6Ly93d3cuc2h1dHRlcnN0b2NrLmNvbS9pbWFnZS1waG90by9hZG1pbi1wcm9maWxlLXBpY3R1cmUtMjYwbnctMTIzNDU2Nzg5MC5qcGciLCJpYXQiOjE3MzY3Njc4NTh9.2UIx2W8pXlAyKQ2k1vuLVwWUgMOGkB9s_whz7WY43sI"
 }

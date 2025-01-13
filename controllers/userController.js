@@ -7,6 +7,7 @@ export function registerUser(req, res) {
 
     const data = req.body;
     data.password = bcrypt.hashSync(data.password, 10);
+    //// Sir , something should come to validate in day08
     const newUser = new User(data);
 
 
@@ -34,7 +35,7 @@ export function loginUser(req, res) {
                 const isPasswordCorrect = bcrypt.compareSync(data.password, user.password);
                 if (isPasswordCorrect) {
                     const token = jwt.sign(
-                        { id: user.firstName, lastName: user.lastName, email: user.email, role: user.role },
+                        { id: user.firstName, lastName: user.lastName, email: user.email, role: user.role,profilePicture:user.profilePicture },
                         process.env.JWT_SECRET,
 
                     )

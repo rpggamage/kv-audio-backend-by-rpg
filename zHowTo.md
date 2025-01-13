@@ -39,3 +39,11 @@ let mongoUrl = ""; XXXXXXX is the database name in the cluster
 #Day 06
     we are going to learn env
     npm i dotenv -> dotenv.config();->process.env.JWT_SECRET
+    then we created review part 
+
+    now
+        reviewRouter.get("/:name", (req, res)=>{
+            console.log(req.params.name);
+        });
+    then we deleted review by email as a parameter
+    // THIS TYPE OF ROUTE IS CALLED PARAMETERIZED ROUTE SHOULD BE AT THE END
