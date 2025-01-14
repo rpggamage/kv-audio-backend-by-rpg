@@ -48,3 +48,12 @@ export function loginUser(req, res) {
             res.status(400).send(err);
         })
 }
+
+export 
+function isItAdmin(req) {
+    let isAdmin = false;
+    if (req.user) {
+        if(req.user.role === "admin") isAdmin = true;
+    }
+    return isAdmin;
+}

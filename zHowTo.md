@@ -47,3 +47,8 @@ let mongoUrl = ""; XXXXXXX is the database name in the cluster
         });
     then we deleted review by email as a parameter
     // THIS TYPE OF ROUTE IS CALLED PARAMETERIZED ROUTE SHOULD BE AT THE END
+#Day 07
+    Async programming
+#Day 08
+    completing product 
+    isItAdmin() -> userController.js
