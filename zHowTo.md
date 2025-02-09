@@ -53,4 +53,6 @@ let mongoUrl = ""; XXXXXXX is the database name in the cluster
     completing product 
     isItAdmin() -> userController.js
 
-    test new name in git
+    change the repo name rpggamage/kv-audio-backend-by-rpg
+    make it public repo
+    
