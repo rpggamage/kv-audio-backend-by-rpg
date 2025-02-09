@@ -52,3 +52,5 @@ let mongoUrl = ""; XXXXXXX is the database name in the cluster
 #Day 08
     completing product 
     isItAdmin() -> userController.js
+
+    test new name in git
