@@ -35,7 +35,7 @@ export function loginUser(req, res) {
                 const isPasswordCorrect = bcrypt.compareSync(data.password, user.password);
                 if (isPasswordCorrect) {
                     const token = jwt.sign(
-                        { id: user.firstName, lastName: user.lastName, email: user.email, role: user.role,profilePicture:user.profilePicture },
+                        { id: user.firstName, lastName: user.lastName, email: user.email, role: user.role,profilePicture:user.profilePicture,phone:user.phoneNumber },
                         process.env.JWT_SECRET,
 
                     )
@@ -49,11 +49,17 @@ export function loginUser(req, res) {
         })
 }
 
-export 
-function isItAdmin(req) {
+export function isItAdmin(req) {
     let isAdmin = false;
     if (req.user) {
         if(req.user.role === "admin") isAdmin = true;
     }
     return isAdmin;
+}
+export function isItCustomer(req) {
+    let isCustomer = false;
+    if (req.user) {
+        if(req.user.role === "customer") isCustomer = true;
+    }
+    return isCustomer;
 }
