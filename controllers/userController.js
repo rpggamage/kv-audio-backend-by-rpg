@@ -39,7 +39,7 @@ export function loginUser(req, res) {
                         process.env.JWT_SECRET,
 
                     )
-                    res.json({ message: "Login successfully", token: token });
+                    res.json({ message: "Login successfully", token: token, user: user });
                 } else {
                     res.status(400).json({ "message": "Invalid password" });
                 }
