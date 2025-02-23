@@ -57,3 +57,13 @@ let mongoUrl = ""; XXXXXXX is the database name in the cluster
     make it public repo
     new name set in the local repo
     
+#Day 12 for frontend api call using axios you need to install 
+    npm install cors
+        then in index.js
+            import cors from "cors";
+
+            dotenv.config();
+
+            let app = express();
+
+            app.use(cors());
